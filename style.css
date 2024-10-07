@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   outline: red solid 1px;
+  border: red solid 1px;
 }
 body {
   margin: 0;
@@ -15,5 +16,5 @@ body {
 
 #result {
   height: 30px;
-  width: 100%;
+  width: 80%;
 }
