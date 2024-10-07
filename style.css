@@ -8,43 +8,12 @@
 body {
   margin: 0;
 }
-.hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+#hero {
   height: 100vh;
 }
-.hero h1 {
-  font-size: 50px;
-}
 
-.result {
-  width: 70%;
-  height: 50px;
-  border-radius: 20px;
-  background-color: lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 600;
-}
-
-.options {
-  display: flex;
-  justify-content: space-around;
-  width: 70%;
-  margin-bottom: 20px;
-}
-.option {
-  width: 20%;
-  height: 70px;
-  border-radius: 20px;
-  background-color: lightgray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  font-weight: 600;
+#result {
+  height: 30px;
+  width: 100%;
 }

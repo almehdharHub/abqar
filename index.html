@@ -5,23 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>abqar</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <section class="hero">
+    <div
+      class="container text-center d-flex flex-column justify-content-center align-items-center"
+      id="hero"
+    >
       <h1>
         If you got tired of thinking <br />
         let abqar help you think
       </h1>
-      <div class="options">
-        <button class="option">explain</button>
-        <button class="option">summerize</button>
-        <button class="option">brainstorm</button>
-        <!-- <div class="option">explain</div>
-        <div class="option">summerize</div>
-        <div class="option">brainstorm</div> -->
+      <div class="container mt-5">
+        <button type="button" class="btn btn-light btn-lg">brainstorm</button>
+        <button type="button" class="btn btn-light btn-lg">explain</button>
+        <button type="button" class="btn btn-light btn-lg">summerize</button>
       </div>
-      <div class="result"></div>
-    </section>
+      <div id="result" class="container-fluid mt-5 text-primary"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
